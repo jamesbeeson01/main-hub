@@ -1,7 +1,32 @@
+html {
+  height: 100%;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif;
-  margin: auto;
-  max-width: 38rem;
-  padding: 2rem;
+  margin: 0;
+  -webkit-app-region: drag;
 }
+
+#title-bar {
+  position: fixed;
+  width: 100%;
+  height: 2rem;
+  background-color: gray;
+}
+
+#main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.right {
+  float: inline-end;
+}
+
+/* .main {
+  display: flex;
+  flex: 1;
+} */
+
